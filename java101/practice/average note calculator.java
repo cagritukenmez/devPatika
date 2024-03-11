@@ -25,6 +25,11 @@ public class DenemeSinifi {
 
         float average = (mathematics + physics + chemistry + turkish + history+music)/6f;
         System.out.println("your average note is :" + average );
-
+        if(average >= 60){
+            System.out.println("congratulations! youre passed.");
+        }
+        else{
+            System.out.println("you are failed...");
+        }
     }
 }
