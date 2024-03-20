@@ -11,7 +11,6 @@ public class Solution {
             value/=4;
             countPowOfFour++;
         }
-        value=valueCover;
         while(value%5==0){
             value/=5;
             countPowOfFive++;
